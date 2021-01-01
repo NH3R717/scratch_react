@@ -1,3 +1,7 @@
 # Scratch React Project
 
-1. git init
+* git init
+* touch .gitignore
+    * add /node_modules
+* npm i -y
+* npm install --save-dev @babel/core @babel/preset-env @babel/preset-react
