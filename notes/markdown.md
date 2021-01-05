@@ -43,4 +43,8 @@ Definition List 	term
 Strikethrough 	~~The world is flat.~~
 Task List 	- [x] Write the press release
 - [ ] Update the website
-- [ ] Contact the media 
+- [ ] Contact the media
+```
+
+Some text with \
+a line break.
