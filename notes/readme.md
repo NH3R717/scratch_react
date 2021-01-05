@@ -1,17 +1,18 @@
 # Scratch React Project
-## Instant Build a React Project Automation from Shell Script on macOS
-### Using VS Code, Homebrew, ZSH, NPM, Git Version Control, Webpack, Babel and other NPM dependencies.
+## Instantly Build a React Project Automation from Shell Script on macOS
+### Using VS Code, Homebrew, ZSH, NPM, Git, Webpack, Babel and other NPM dependencies.
 
 # Steps
 
-### Download Project File – https://github.com/NH3R717/scratch_react/archive/master.zip
-### From – https://github.com/NH3R717/scratch_react
+## Download Project File – 
+### Repo – https://github.com/NH3R717/scratch_react
+### Direct Download – https://github.com/NH3R717/scratch_react/archive/master.zip
 
 ## Install Homebrew
 ### Home Brew – https://brew.sh
 #### Homebrew is like NPM for macOS, NPM is something that manages installing and updating (installed) apps and other software.
 
-## Install Necessary Project Software Using Homebrew  
+## Install Necessary Project Software on Mac Using Homebrew  
 ### – Run These Commands
 
 ### Brew "dependencies" (formulae)
