@@ -4,22 +4,23 @@
 # printf "14.15.3" > .nvmrc
 # nvm use
 # nvm current
-mkdir fresh_react_project
+cd ~/Desktop
+mkdir fresh_react_project && cd "$_"
 printf "# React Starter Package
 ## Compiled from react_install.sh
 ### Rated – GR (Golden Retriever) and Up" > readme.md
 git init
-git add -v --all
+git add --all
 git commit -m "initial commit"
-printf "/node_modules" > .gitignore
 npm init -y
+printf "/node_modules" > .gitignore
 
-##! development dependencies (necessary)
+# #! development dependencies (necessary)
 # npm i @babel/core @babel/preset-env @babel/preset-react --save-dev
 # npm i webpack webpack-cli webpack-dev-server -D
-# npm install sass-loader node-sass --save-dev
 
 ##! development dependencies options
+# npm install sass-loader node-sass --save-dev
 # npm i css-loader style-loader --save-dev
 
 ##! deployed dependencies (necessary)
@@ -43,9 +44,9 @@ mkdir src
 mkdir src/styles
 
 #? alternate
-touch webpack.config.js
+# touch webpack.config.js
 #?
-#! webpack.config.js
+#! add – webpack.config.js
 echo "// import
 const path = require('path');
 
@@ -77,11 +78,11 @@ module.exports = {
 };" > webpack.config.js
 #!
 
-#! add – app.js
+#! add – .babelrc
 
 printf "{
   \"presets\": [\"@babel/preset-env\", \"@babel/preset-react\"]
-}"
+}" .babelrc
 
 #! add – app.js
 printf "import React from 'react';
@@ -110,6 +111,7 @@ printf "  <!DOCTYPE html>
     </html>" > public/index.html
 
 #! add – styles.scss
+
 # printf "\$brand-color: blue;
 
 # * {
@@ -119,7 +121,7 @@ printf "  <!DOCTYPE html>
 #!
 
 #? alternate
-touch src/styles.css
+# touch src/styles.css
 #?
 #! add – styles.css
 printf "color: gold" > src/styles.css

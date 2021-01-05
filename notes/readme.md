@@ -9,26 +9,32 @@
 
 ## Install Homebrew
 ### Home Brew – https://brew.sh
-### HB is like NPM for macOS, NPM is something that manages installing and updating (installed) apps and other software.
+#### Homebrew is like NPM for macOS, NPM is something that manages installing and updating (installed) apps and other software.
 
 ## Install Necessary Project Software Using Homebrew  
 ### – Run These Commands
 
 ### Brew "dependencies" (formulae)
 
-$ brew install gnu-sed \
-$ brew install node \
-$ brew install zsh
+$ brew install gnu-sed node zsh
 
-### Brew "apps" (cask)
+### Brew "apps" (casks)
 
 $ brew install --cask vscodium \
 || \
 $ brew install --cask visual-studio-code
 
-### Build Script
+## VS Code Extension
+### – Search and Install in VS Code Extension
 
+aaron-bond.better-comments
 
-## Credits
-https://medium.com/@premal.katigar/how-to-create-a-react-app-from-scratch-using-webpack-4-f9c1ca974dc6
-https://dev.to/iamismile/how-to-setup-webpack-and-babel-for-react-59ph
+## Build Script
+
+react_install.sh
+
+## Inspiration
+### 
+[Premal Katigar – How to Create a React app from scratch using Webpack 4](https://medium.com/@premal.katigar/how-to-create-a-react-app-from-scratch-using-webpack-4-f9c1ca974dc6) \
+\
+[Ismile Hossain – How to setup Webpack and Babel for React](https://dev.to/iamismile/how-to-setup-webpack-and-babel-for-react-59ph)
