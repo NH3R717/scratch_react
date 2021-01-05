@@ -8,10 +8,11 @@
 ### From – https://github.com/NH3R717/scratch_react
 
 ## Install Homebrew
-Home Brew – https://brew.sh
+### Home Brew – https://brew.sh
 ### HB is like NPM for macOS, NPM is something that manages installing and updating (installed) apps and other software.
 
-## Install Necessary Project Software Using Homebrew  – Run These Commands
+## Install Necessary Project Software Using Homebrew  
+### – Run These Commands
 
 ### Brew "dependencies" (formulae)
 
